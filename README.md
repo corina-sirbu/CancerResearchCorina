@@ -15,7 +15,7 @@ If you prefer to use a different test framework (feel free to add it as a depend
 
 ### Setup
 1. Java installed
-1. Mvn installed
+1. Maven installed
 1. Download ChromeDriver & put in `C:/chromedriver/` folder [Chromedriver Downloads](http://chromedriver.chromium.org/downloads). If not using windows you may need to change the executable path.
 1. Download [docker](https://docs.docker.com/get-docker/)
 
