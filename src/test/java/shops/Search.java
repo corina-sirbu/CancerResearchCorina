@@ -20,7 +20,8 @@ public class Search {
     @Test(enabled = true)
     public void searchTest() throws Throwable {
         // Setup
-        System.setProperty("webdriver.chrome.driver","C:/chromedriver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:/chromedriver/chromedriver.exe"); // Windows
+        //System.setProperty("webdriver.chrome.driver","/Users/<your username>/chromedriver/chromedriver"); // Mac
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.cancerresearchuk.org/");
         driver.manage().window().maximize();
