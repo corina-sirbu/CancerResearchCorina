@@ -1,6 +1,7 @@
 test-output/
 results/
 target/
+maven-status/
 # Compiled class file
 *.class
 
